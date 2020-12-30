@@ -51,3 +51,18 @@ t_f = c * 1.8 + 32;
 t_c = (f - 32) * 5/9;
 console.log(`${c}\xB0C соответствует ${t_f}\xB0F`);
 console.log(`${f}\xB0F соответствует ${t_c}\xB0С`);
+
+/// Задание №4 ///
+console.log('\n');
+console.log('Задание №4');
+y = prompt('Введите год');
+v = y % 4 == 0? (y % 100 == 0? false:true) : false;
+alert(v)
+
+/// Задание №5 ///
+console.log('\n');
+console.log('Задание №5');
+h = prompt('Введите первое число');
+i = prompt('Введите второе число');
+if ((h == 10)||(i == 10)||( +h + +i == 10))
+    alert('Истина');
