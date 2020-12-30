@@ -28,3 +28,16 @@ console.log(str + str_number)
 console.log (Number(str_number) + bool_true)
 // Строку к числу + логический тип = число
 
+/// Задание №2 ///
+console.log('\n');
+console.log('Задание №2');
+a = prompt('Введите длину a');
+b = prompt('Введите ширину b');
+console.log(a);
+console.log(b);
+p = a*2 + b*2;
+console.log('периметр: ' + p);
+s = a * b;
+console.log('площадь: ' + s);
+d = p / s;
+console.log('отношение периметра к площади: ' + d);
